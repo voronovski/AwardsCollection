@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		A8E1B481267B7967005E98AA /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B480267B7967005E98AA /* CurvesView.swift */; };
 		A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B482267B7972005E98AA /* GradientRectangles.swift */; };
 		A8E1B485267B7979005E98AA /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B484267B7978005E98AA /* PathView.swift */; };
+		FAD323942A31795D00C7F05D /* Diablo4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD323932A31795D00C7F05D /* Diablo4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A8E1B480267B7967005E98AA /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		A8E1B482267B7972005E98AA /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		A8E1B484267B7978005E98AA /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		FAD323932A31795D00C7F05D /* Diablo4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diablo4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				A8A20B562837907D00C7401B /* CartRacingView.swift */,
 				A89D0941267B77C800C1FB66 /* AwardsView.swift */,
 				A8E1B482267B7972005E98AA /* GradientRectangles.swift */,
+				FAD323932A31795D00C7F05D /* Diablo4View.swift */,
 				A8E1B484267B7978005E98AA /* PathView.swift */,
 				A8E1B480267B7967005E98AA /* CurvesView.swift */,
 				A89D0934267B76D600C1FB66 /* Assets.xcassets */,
@@ -113,8 +116,9 @@
 		A89D0925267B76D400C1FB66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					A89D092C267B76D400C1FB66 = {
 						CreatedOnToolsVersion = 12.5;
@@ -161,6 +165,7 @@
 				A89D0942267B77C800C1FB66 /* AwardsView.swift in Sources */,
 				A89D0933267B76D400C1FB66 /* MainView.swift in Sources */,
 				A8E1B485267B7979005E98AA /* PathView.swift in Sources */,
+				FAD323942A31795D00C7F05D /* Diablo4View.swift in Sources */,
 				A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */,
 				A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */,
 				A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */,
