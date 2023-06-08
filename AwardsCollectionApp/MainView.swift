@@ -22,9 +22,9 @@ struct MainView: View {
             
             Spacer()
             if awardIsShowing {
-                GradientRectangles()
-                    .frame(width: 250, height: 250)
-                    .transition(.leadingSlide)
+                Diablo4View()
+                    .frame(width: 200, height: 200)
+                    .transition(.scaleOpacity)
             }
             
             Spacer()
@@ -41,11 +41,11 @@ struct MainView: View {
 }
 
 extension AnyTransition {
-    static var leadingSlide: AnyTransition {
-        let insertion = AnyTransition.move(edge: .leading)
-            .combined(with: .scale)
-        let removal = AnyTransition.move(edge: .trailing)
-            .combined(with: .scale)
+    static var scaleOpacity: AnyTransition {
+        let insertion = AnyTransition.scale
+            .combined(with: .opacity)
+        let removal = AnyTransition.scale
+            .combined(with: .opacity)
         
         return .asymmetric(insertion: insertion, removal: removal)
     }
